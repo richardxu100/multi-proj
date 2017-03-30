@@ -6,7 +6,14 @@ output: pdf_document
 ---
 
 # Introduction
-This is a panda
+Dating back to 1829, Maine was first settled by Thomas Fowler, along with his family. Shortly after inhabiting the area, he recognized its potential and opened it up to development. Charles W. Mullen, an engineering graduate from the University of Maine, hypothesized putting a dam on the Penobscot River in order to convert the water source into a power source. This dam would eventually be used to operate a large pulp and paper mill, Millinocket Paper Company. Then, on May 15, 1899, construction commenced. This remote location was set off from the rest of the island, hence the necessity to build a mill.
+
+On March 16, 1901, Millinocket (meaning “the land of many islands”) was incorporated, jumpstarting the community. With most of the construction of Millinocket Mill being attributable to Italian masons, the community prospered. It rapidly developed a reputation as a small but successful rural town, mostly due to the paper industry. Coupled with the close proximity to Mount Katahdin, Maine’s tallest mountain, and Moosehead Lake, Maine’s largest lake, things were running smoothly.
+
+Sadly, in early 2003, Great Northern Paper filed for bankruptcy protection for its Millinocket and East Millinocket mills. Ever since then, the mill town has struggled to revive its once thriving community.
+
+Through the our applied project, we will optimize a hydro-turbine in Millinocket, Maine, facilitated by the Katahdin Paper Company. We will apply Bernoulli’s equations, as well as the given quadratic models.  
+
 
 ![The Victim](https://media4.s-nbcnews.com/j/newscms/2016_36/1685951/ss-160826-twip-05_8cf6d4cb83758449fd400c7c3d71aa1f.nbcnews-ux-2880-1000.jpg)
 
@@ -52,6 +59,14 @@ $Q_{2} = .297Q_{T} + 20.949$
 $Q_{2} = .362Q_{T} + 54.225$
 
 ## Problem 2
-$Q_{1} = .341Q_{T} - 75.174 \text {        smallest when } Q_{T} \text { is small }$
+$Q_{1} = .341Q_{T} - 75.174 \text { smallest when } Q_{T} \text { is small }$
 $Q_{2} = .297Q_{T} + 20.949 \text { smallest when } Q_{T} \text { is large }$
 $Q_{2} = .362Q_{T} + 54.225 \text { biggest always }$
+
+$\text {Judging from the constraints listed, the smallest } Q_{T} \text { would be the one where the smallest } Q_{i} \text {was 250. }$
+
+$\text {Using that information, we solved for } Q_{T_{min}} \text {, getting } Q_{T} = 953.589$
+
+$\text {We used a similar process to discover } Q_{Tmax} \text {. The largest } Q_{i} \text {would be }  1225ft^3/sec \text { through turbine 3, meaning that } Q_{Tmax} \text { would be } Q_{T} = 3234.185 $
+
+$\therefore 953.589 < Q_{T} < 3234.185$
